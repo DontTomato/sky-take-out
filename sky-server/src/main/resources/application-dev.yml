@@ -1,0 +1,37 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: root
+    # 设置阿里云
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    accessKeyId: LTAI5tPeFLzsPPT8gG3LPW64
+    accessKeySecret: U6k1brOZ8gaOIXv3nXbulGTUzy6Pd7VT
+    bucketName: sky-itcast
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
+    # 设置阿里云
+#  alioss:
+#    endpoint: oss-cn-beijing.aliyuncs.com
+#    accessKeyId: LTAI5tPeFLzsPPT8gG3LPW64
+#    accessKeySecret: U6k1brOZ8gaOIXv3nXbulGTUzy6Pd7VT
+#    bucketName: sky-itcast
+
+
+  wechat:
+    appid: wx8849661296d3a9f55
+    secret: 5461f1d4bc53eab61a5ff3e607d10a655
+#   // mchid:
+#   // mchSerialNo: ${sky.wechat.mchSerialNo}
+#   // privateKeyFilePath: ${sky.wechat.privateKeyFilePath}
+#   // apiV3Key: ${sky.wechat.apiV3Key}
+#   // weChatPayCertFilePath: ${sky.wechat.weChatPayCertFilePath}
+#   // notifyUrl: ${sky.wechat.notifyUrl}
+#   // refundNotifyUrl: ${sky.wechat.refundNotifyUrl}
